@@ -1,9 +1,9 @@
-pipeline {
+o pipeline {
   agent any
   stages {
     stage('Build') {
       steps {
-        sh 'bat "gradlew.bat init"'
+        sh 'echo "hello world"'
       }
     }
   }
