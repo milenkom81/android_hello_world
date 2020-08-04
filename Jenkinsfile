@@ -1,9 +1,9 @@
 pipeline {
-  agent { label 'linux'}
+  agent { label 'windows'}
   stages {
     stage('Build') {
       steps {
-        sh 'echo "hello world 2"'
+        bat 'echo "hello world 2"'
       }
     }
   }
